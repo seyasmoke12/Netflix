@@ -1,10 +1,24 @@
 .header_outer_container {
-    background-color: #141414;
-    color: #fff;
-    position: fixed;
+    /* background-color: #141414; */
+    /* color: #fff; */
+    /* position: fixed; */
     width: 100%;
     top: 0;
-    z-index: 1000;
+    /* z-index: 1000; */
+        position: sticky;
+            top: 0;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            /* background-color: rgb(148, 132, 132); */
+            background-color: rgb(20, 20, 20);
+            background-color: transparent;
+            height: 10vh;
+            color: white;
+            transition: all 0.5s;
+            transition-timing-function: ease-in;
+            z-index: 1;
+            /* background-color: red; */
 }
 
 .header_container {
