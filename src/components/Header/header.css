@@ -60,7 +60,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
     .header_left ul,
     .header_right ul {
